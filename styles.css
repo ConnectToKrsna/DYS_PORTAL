@@ -47,6 +47,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .front{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #3c787e;
     font-family: Garamond, serif;
     border: 2px solid black;
@@ -186,11 +189,11 @@
     #card6{
       background-size: cover;
     }
-    /* video{
+    video{
     height: 300px;
     width: 300px;
     margin:10px;
-  } */
+  }
   }
 
   
