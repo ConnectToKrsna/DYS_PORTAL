@@ -1,2 +1,1 @@
-# DYS_PORTAL
-DYS-Portal
+# Rishikesh-And-Haridwar-Camp-2024

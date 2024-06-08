@@ -1,0 +1,196 @@
+.card {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px black;
+  transition: 2ms;
+  padding: 5px;
+  color:white;
+  background-color:rgb(239, 225, 171);
+  /* background-image: url("haridwar-rishikesh-tour.jpg"); */
+  text-shadow: 1px 1px blue;
+  }
+  #card1{
+    background-image: url("lab.jpg");
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #card2{
+    background-image: url("dysb-4.jpg");
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #card3{
+    background-image: url("DYS-3.jpg");
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity:1.5;
+  }
+  #card4{
+    background-image: url("DYS-4.jpg");
+    background-size:cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1.5;
+  }
+  #card5{
+    background-image: url("DYS-5.jpg");
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #card6{
+    color: black;
+    background-image: url("DYS-6.jpg");
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .front{
+    background-color: #3c787e;
+    font-family: Garamond, serif;
+    border: 2px solid black;
+    background-image: url("dysb-4.jpg");
+    background-size: 1600px 1000px;
+    background-blend-mode: multiply;
+    /* background-repeat: no-repeat; */
+    color: white;
+    text-shadow: 2px 2px blue;
+    text-align: center;
+    box-shadow: 2px 2px 2px yellow;
+  }
+  a{
+    text-decoration:none;
+  }
+ .frontb{
+  padding: 10px;
+ width: 70%;
+ border: 2px solid white;
+ border-radius: 20px;
+ background-color:azure;
+ color: white;
+ text-shadow: 1px 1px red;
+ font-size: medium;
+ margin: 20px;
+ opacity:1;
+ }
+  .front2{
+    background-color: #3c787e;
+    opacity: 1.5;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    border-radius: 20px ;
+  }
+  video{
+    height: 400px;
+    width: 400px;
+    /* margin:10px */
+  }
+  .footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: large;
+    padding: 20px;
+    text-shadow: 2px 2px 2px blue;
+  }
+  h2 {
+    text-align: center;
+    text-shadow: 2px blue;
+  }
+  #hare{
+    text-align: center;
+    color: red;
+    text-shadow: 1px 1px 1px blue;
+    font-size: large;
+  }
+  #Dys{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #C9E3AC;
+  }
+  .card:hover{
+    box-shadow: 2px 2px 8px blue ;
+  }
+  .frontb:hover{
+    background-color: rgb(0, 255, 128);
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px aqua;
+    font-size:larger;
+    color: rgb(205, 143, 50);
+  }
+  .regform{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    font-size: larger;
+    color: antiquewhite;
+    box-shadow: 2px 2px 2px 2px black;
+    background-image: url("dysb-1.jpg");
+    align-items: center;
+    text-align: center;
+  }
+  .regb{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: azure;
+    color: white ;
+    text-shadow: 1px 1px red;
+    font-size: medium;
+    margin: 10px;
+    opacity:1;
+    background-blend-mode: multiply;
+  }
+  .regb:hover{
+    background-color: rgb(0, 255, 128);
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px aqua;
+    font-size:larger;
+    color: rgb(205, 143, 50);
+  }
+  @media(max-width:500px){
+    #Dys{
+      flex-wrap: wrap;
+    }
+    .card{
+      width: 300px;
+     height: 300px;
+    }
+    #card1{
+      background-size: cover;
+    }
+    #card2{
+      background-size: cover;
+    }
+    #card3{
+
+      background-size: cover;
+    }
+    #card4{
+      background-size: cover;
+    }
+    #card5{
+      background-size: cover;
+    }
+    #card6{
+      background-size: cover;
+    }
+    /* video{
+    height: 300px;
+    width: 300px;
+    margin:10px;
+  } */
+  }
+
+  
